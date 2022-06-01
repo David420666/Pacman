@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background-image: url('fondo.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+  }
+.dmgv45{
+    border: 2px solid black;
+    background-image: url("fondo.jpg");
+    background-color: black;
+    height: 100vh;
+}
+.hola {
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    animation: mymove 5s infinite;
+  }
+  @keyframes mymove {
+    from {top: 0px;}
+    to {top: 200px;}
+  }
+  h2{
+      color: yellow;
+      text-align: center;
+  }
+  .cajapacman{
+      border-style: solid;
+      border-radius: 2px;
+      border-color: blue;
+      height: 20vh;
+      text-align: center;
+      background-color: black;
+  }
+  .pacmananimation1{
+      display: flex;
+      height: 10vh;
+      position: relative;
+      animation: pacmancorre1 5s infinite;
+  }
+  @keyframes pacmancorre1 {
+      0%   {top: 0px; left: 1250px;}
+      10%  {top: 0px; left: 1250px;}
+      20%  {top: 50px; left: 1250px;}
+      30%  {top: 50px; left: 50px;}
+      40% {top: 200px; left: 50px;}
+      50% {top: 200px; left: 1250px;}
+      60% {top: 350px; left: 1250px;}
+      70% {top: 350px; left: 50px;}
+      80% {top: 500px; left: 50px;}
+      90% {top: 500px; left: 1250px;}
+      100% {top: 650px; left: 1250px;}
+  }
